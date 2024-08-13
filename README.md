@@ -139,4 +139,4 @@ Finalmente, para terminar la sesión de depuración, simplemente debes hacer cli
 **IMPORTANTE:**
 Este proyecto se distribuye AS-IS, y se puede tomar como plantilla para la depuración de proyectos existentes.
 
-La depuración solo se debe habilitar **en ambientes de desarrollo**. No se recomienda en lo absoluto implementar esto en ambientes de **producción**.
+La depuración solo se debe habilitar **en ambientes de desarrollo**. No se recomienda implementar esto en ambientes de **producción**.
