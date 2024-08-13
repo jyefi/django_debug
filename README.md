@@ -140,3 +140,8 @@ Finalmente, para terminar la sesión de depuración, simplemente debes hacer cli
 Este proyecto se distribuye AS-IS, y se puede tomar como plantilla para la depuración de proyectos existentes.
 
 La depuración solo se debe habilitar **en ambientes de desarrollo**. No se recomienda implementar esto en ambientes de **producción**.
+
+Refencias
+Basado en el trabajo de Davi Candido (https://medium.com/@davivc/debugging-django-python-dockerized-applications-ff8ba843e6dd)
+y en el trabajo de Mark Winterbottom (
+https://londonappdeveloper.com/debugging-a-dockerized-django-app-with-vscode/)
