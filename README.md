@@ -128,7 +128,7 @@ Para ello, vas a la ventana de "Run and debug":
 
 Y das click en play (Attach (Remote Django App))
 
-![Start Debugging](https://github.com/jyefi/django_debug/blob/main/doc/img/start_debbugging.png?raw=true)
+![Start Debugging](https://github.com/jyefi/django_debug/blob/main/doc/img/start_debugging.png?raw=true)
 
 Si tienes puntos de depuración marcados en la aplicación, estos se activarán:
 
