@@ -25,10 +25,14 @@ sddddddy                        ydddddds
            `-/osyhddddhyso/-`
 ```
 
-Este proyecto está descompuesto en tres partes:
+Este proyecto está descompuesto en cuatro partes:
 1. El dockerfile para preparar la parte de depuración
 2. El docker compose habilitado para levantar los servicios en producción (gunicorn)
 3. El docker compose habilitado para depurar
+4. Adjuntar el servicio de depuración en vscode
+
+TODO:
+Probar en Windows.
 
 ## Prerrequisitos ##
 - Docker desktop
