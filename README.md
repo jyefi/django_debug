@@ -128,7 +128,7 @@ Y das click en play (Attach (Remote Django App))
 
 Si tienes puntos de depuración marcados en la aplicación, estos se activarán:
 
-![Debugging](https://github.com/jyefi/django_debug/blob/main/doc/img/debbugging.png?raw=true)
+![Debugging](https://github.com/jyefi/django_debug/blob/main/doc/img/debugging.png?raw=true)
 
 Finalmente, para terminar la sesión de depuración, simplemente debes hacer clic en el ícono "Disconnect" o bien terminar con Shift + F5.
 
