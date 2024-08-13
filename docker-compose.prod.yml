@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  djangodebug:
+    image: djangodebug:1.0
+    ports:
+      - 8000:8000
+    working_dir: /app
+    command: gunicorn dj_debug.wsgi:application --bind 0.0.0.0:8000

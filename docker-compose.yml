@@ -1,0 +1,17 @@
+services:
+  example-web:
+    image: djangodebug:1.0
+    command: "python manage.py runserver 0.0.0.0:8000"
+    volumes:
+      - ./app:/app
+    ports:
+      - 8000:8000
+
+  example-debug:
+    extends: example-web
+    image: djangodebug:1.0
+    command: "python -m debugpy --wait-for-client --listen 0.0.0.0:5678 manage.py runserver 0.0.0.0:8000"
+    ports:
+      - 5678:5678
+    profiles:
+      - debug
