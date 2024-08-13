@@ -105,7 +105,7 @@ En algunos sistemas de docker se utiliza "docker-compose" en vez de "docker comp
 En el caso de ejecutar la opción con el perfil de depuración, se generan 2 contenedores:
 - django_debug-example-web-1 (inactivo) y 
 - django_debug-example-debug-1 (activo)
-![alt text](http://url/to/img.png)
+![Contenedores](https://github.com/jyefi/django_debug/blob/main/doc/img/containers.png?raw=true)
 
 
 Esto ocurre, porque como el perfil de depuración "extiende" desde el servicio web, compose, primero prepara el contenedor del servicio web, y posteriormente genera el contenedor de debug, dejando inactivo el primero.
@@ -115,5 +115,18 @@ Si necesitas eliminar memoria, simplemente puedes remover el contenedor, con las
 ## Paso 4: adjuntar el proceso remoto  ##
 Una vez ejecutado el contenedor en modo debug, simplemente se debe ejecutar y depurar en vscode:
 
+Para ello, vas a la ventana de "Run and debug":
+![Run and debug](https://github.com/jyefi/django_debug/blob/main/doc/img/run_and_debug.png?raw=true)
 
+Y das click en play (Attach (Remote Django App))
+![Start Debugging](https://github.com/jyefi/django_debug/blob/main/doc/img/start_debbugging.png?raw=true)
 
+Si tienes puntos de depuración marcados en la aplicación, estos se activarán:
+![Debugging](https://github.com/jyefi/django_debug/blob/main/doc/img/debbugging.png?raw=true)
+
+Finalmente, para terminar la sesión de depuración, simplemente debes hacer clic en el ícono "Disconnect" o bien terminar con Shift + F5.
+
+**IMPORTANTE:**
+Este proyecto se distribuye AS-IS, y se puede tomar como plantilla para la depuración de proyectos existentes.
+
+La depuración solo se debe habilitar **en ambientes de desarrollo**. No se recomienda en lo absoluto implementar esto en ambientes de **producción**.
